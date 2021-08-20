@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en, bangla">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./Sodai Chai.css">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     
@@ -24,17 +24,58 @@
                 <img class="l" src="https://i.ibb.co/RjLBvMb/Untitled-1.png" title="Sodai Chai" alt="Sodai Chai">  
              </a>
             </div>
-            <div class="search_div">
-                 <input class="search" placeholder="Search in Sodai Chai" type="search" name="Search" id="#">
-                 <button type="submit" class="search_btn"><i class="fa fa-search"></i></button>
+
+            <div class="deliverder_to">
+                <span>Deliver to</span><br>
+                <!-- <span><i class="fal fa-map-marker-alt"></i></span> -->
+                <div class="location_icon">
+                    <i class="fal fa-map-marker-alt"></i>
+                </div>
+
+         <select class="select" name="" id="">
+             <option value="Dhaka">Dhaka</option>
+             <option value="Noakhali">Noakhali</option>
+             <option value="Dinajpur">Dinajpur</option>
+         </select>
             </div>
-             
+
+
+            <div class="search_div">
+
+                <div class="search_selector_div">
+
+                        <select class="main_search_selector" name="" id="" title="Search in" aria-placeholder="test m">
+                            <option selected="selected" value="selected">All deperment</option>
+                            <option value="All deperment">All deperment     </option>
+                            <option value="All deperment">All deperment</option>
+                            <option value="All deperment">All deperment</option>
+                            <option value="All deperment">All deperment</option>
+                            <option value="All deperment">All deperment</option>
+                            <option value="All deperment">All deperment</option>
+                            <option value="All deperment">All deperment</option>
+                            <option value="All deperment">All deperment</option>
+                        </select>
+
+                </div>
+                 <input class="search" placeholder="Search in Sodai Chai" type="search" name="Search" id="#">
+                 <button type="submit" class="search_btn"><i class="fad fa-search"></i></button>
+            </div>
+             <div class="cart_div">
+                <a href="#"><i class="far fa-shopping-cart"></i></a><br>
+                <!-- <b>Cart</b> -->
+             </div>
+             <div class="sing_in_div">
+                 <a href="#">
+                    <i class="fad fa-user-circle"></i>
+                 </a><br>
+                 <b>Sing in</b>
+             </div>
                  <ul class="menu_ul">
                      <li> <a href="#">Home</a></li>
                      <li><a href="#">About Us</a>
                         <ul class="about">
                             <li><a href="file:///C:/Users/user/Desktop/sodai%20chai/New%20folder%20(2)/Company%20Profile/Company%20Profile.html">COMPANY PROFILE</a></li>
-                            <li><a href="https://developertanvirulislam.github.io/sodai-chai-mission/"> MISSION, VISION & POLICY</a></li>
+                            <li><a href="file:///C:/Users/user/Desktop/sodai%20chai/New%20folder%20(2)/About/Sodai%20Chai%20Missin.html"> MISSION, VISION & POLICY</a></li>
                             <li><a href="#">AWARDS & ACCREDITATION</a></li>
                             <li><a href="#"> QUALITY POLICY</a></li>
                             <li><a href="#">CORPORATE POLICY</a></li>
@@ -94,84 +135,143 @@
             
             <h2 class="Product-Head">Our Product Categories</h2> <br><br>
 
-        <div class="product_list">
-            <a class="fruits" href="#">Fruits and Vegitable    <i class="far fa-apple-crate"></i>   </a> 
-            <a class="meet" href="#">Meet and Fish       <i class="fas fa-fish"></i></a> 
-            <a class="cook" href="#">Cooking             <i class="fas fa-cauldron"></i></a> <br>
-            <a class="beverage" href="#">Beverage        <i class="fas fa-burger-soda"></i></a> 
-            <a class="h-and-c" href="#">Home and Cleaning  <i class="fas fa-quidditch"></i></a>
-            <a class="h-a" href="#">Home Appliaces       <i class="fas fa-blender "></i> </a>
-            <a class="pest" href="#">Pest Control        <i class="fas fa-spider"></i></a>
-            <a class="office" href="#">Office Product    <i class="fas fa-briefcase"></i></a>
-            <a class="beauty" href="#">Beauty Product     <i class="far fa-air-freshener"></i></a>
-            <a class="health" href="#">Health Product     <i class="fas fa-ambulance"></i></a>
-            <a class="baby-care" href="#">Baby Care       <i class="fas fa-baby"></i></a>
-            <a class="resturent" href="#">Resturent       <i class="fas fa-utensils-alt"></i></a>
+        <div class="product_list container">
+            
+            <div class="item">
+                <a class="fruits" href="#">Fruits and Vegitable  </a>  <div  class="item_icon"><i class="far fa-apple-crate"></i> </div> 
+            </div>
+
+            <div class="item">
+                <a class="meet" href="#">Meet and Fish    </a>    <div class="item_icon" ><i class="fas fa-fish"></i></div> 
+            </div>
+
+            <div class="item">
+                <a class="cook" href="#">Cooking      </a>       <div class="item_icon" ><i class="fas fa-cauldron"></i>  </div> <br>
+            </div>
+
+            <div class="item">
+                <a class="beverage" href="#">Beverage     </a>    <div class="item_icon"><i class="fas fa-burger-soda"></i></div> 
+            </div>
+
+            <div class="item">
+                <a class="h-and-c" href="#">Home and Cleaning </a>  <div class="item_icon"><i class="fas fa-quidditch"></i></div> 
+            </div>
+
+            <div class="item">
+                <a class="h-a" href="#">Home Appliaces    </a>    <div class="item_icon"><i class="fas fa-blender "></i></div> 
+            </div>
+            
+            <div class="item">
+                <a class="pest" href="#">Pest Control    </a>     <div class="item_icon"><i class="fas fa-spider"></i></div> 
+            </div>
+
+            <div class="item">
+                <a class="office" href="#">Office Product </a>    <div class="item_icon"><i class="fas fa-briefcase"></i></div> 
+            </div>
+
+           <div class="item">
+            <a class="beauty" href="#">Beauty Product   </a>   <div class="item_icon"><i class="far fa-air-freshener"></i></div>
+           </div>
+
+            <div class="item">
+                <a class="health" href="#">Health Product  </a>    <div class="item_icon"><i class="fas fa-ambulance"></i> </div>
+            </div>
+
+            <div class="item">
+                <a class="baby-care" href="#">Baby Care    </a>    <div class="item_icon"><i class="fas fa-baby"></i></div>
+            </div>
+
+            <div class="item">
+                <a class="resturent" href="#">Resturent    </a>    <div class="item_icon"><i class="fas fa-utensils-alt"></i></div></a>
+            </div>
+            
         </div>
 
         <br><br><br>
 
-    <div class="how">
+    <div class="how container">
          <h2>How to order from <span>Sodai Chai</span> <i class="fas fa-question-circle"></i></h2>
      </div>
-    <div class="order-proces">
-            <div class="place-order">
-                <div class="jhuri"><i class="fas fa-pepper-hot"></i></div>
-                <div class="cart">
-                    <i class="fas fa-cart-arrow-down"></i>
-                </div>
-                 <h3>Place Order </h3>
-                <p>Choose Your desiered products and prees the place holder button.</p>
-            </div>
 
-            <div class="pay">
-                <div class="dollar">
-                    <i class="fas fa-money-bill-alt"></i>
-                </div>
-                <div class="hand">
-                    <i class="fad fa-wallet"></i>
-                </div>
-                 <h3>Easy Payment </h3>
-                <p> Pay at you convenience, from where ever you are.</p>
-            </div>
 
-             <div class="track">
-                 <div class="i_t">
-                    <i class="fad fa-truck"></i>
-                </div><br><br>
-                 <h3>Fast Delivery</h3>
-                 <p>Get you order delivered within 1 hour at your doorstep</p>
-            </div>
+    <div class="order-proces container clearfix">
+<div class="first_divition">
+        <div class="order_img_one clearfix">
+            <img src="https://i0.wp.com/developerjillur.me/wp-content/uploads/2018/03/developerjillur-graphic-right.png?w=270&ssl=1" alt="">
+        </div> 
+        
+
+        <div class="search_product clearfix">
+            <div class="search_icon"><i class="fad fa-search"></i></div>
+            <h3>1.Search</h3>
+            <p>Search by entering the name of your product in the search bar.</p>
+        </div>
+
+        <div class="dotted_one">----------------------------------------------------------------------</div>
+       
+
+        <div class="place_order clearfix">
+            <div class="order_icon"><i class="far fa-cart-plus"></i></div>
+            <h3>2.Place Order </h3>
+            <p>Choose Your desiered products and prees the place holder button.</p>
+        </div><br><br>
+    </div>
+
+    <div class="second_divition">
+
+        <div class="order_img_two clearfix">
+            <img src="https://i1.wp.com/developerjillur.me/wp-content/uploads/2018/03/developerjjillur-graphic-left.png?w=270&ssl=1" alt="">
+        </div>
+
+        
+        <div class="easy_payment clearfix">
+            <div class="taka"><span>&#2547;</span></div>
+            <h3>3.Easy Payment </h3>
+            <p> Pay at you convenience, from where ever you are.</p>
+
+        </div>
+        <div 
+        class="dotted_two">----------------------------------------------------------------------------</div>
+        <div class="fast_delivary clearfix">
+            <div class="delivery_car"><i class="fas fa-truck-container"></i></div>
+            <h3>4.Fast Delivery</h3>
+            <p>Get you order delivered within 1 hour at your doorstep</p>
+        </div>
+    </div>
+
+
     </div>
     <br><br><br>
-    <div class="why_love_sodaichai_maindiv">
-        <h1>Why People Love Sodai Chai</h1><br><br>
-        <div class="quick ">
-            <h2>Convenient & Quick</h2>
-            <p>No waiting in traffic, no haggling, no worries carrying groceries, they'n delivered right at your door.</p>
-        </div>
-        <div class="pick">
-            <h2>Freshly Picked</h2>
-            <p>Our fresh produce is sourced every morning, you get the best from us.</p>
-        </div>
-        <div class="range_product">
-            <h2>A wide range of Products</h2>
-            <p>With 4000+ Products to choose from, forget scouring those aisles for hours.</p>
-        </div>
-    </div>
 
-    <p>
-        <a class="p_com" href="#">Sodai Chai .com</a>  is an online shop 
-        available in Noakhali. We believe time is valuable to our fellow 
-        residents, and that they should not have to   waste hours in traffic, 
-        brave bad weather and wait in line just to buy basic necessities like 
-        eggs! This is why Spdai Chai delivers everything    you need right at 
-        your door-step and at no additional cost.
-    </p>
+    <!-- <div class="why_love_sodaichai_maindiv container"> -->
+        <!-- <h1>Why People Love Sodai Chai</h1><br><br> -->
+        <!-- <div class="quick "> -->
+            <!-- <h2>Convenient & Quick</h2> -->
+            <!-- <!-- <p>No waiting in traffic, no haggling, no worries carrying groceries, they'n delivered right at your door.</p> --> 
+        <!-- </div> -->
+        <!-- <div class="pick"> -->
+            <!-- <h2>Freshly Picked</h2> -->
+            <!-- <p>Our fresh produce is sourced every morning, you get the best from us.</p> -->
+        <!-- </div> -->
+        <!-- <div class="range_product"> -->
+            <!-- <h2>A wide range of Products</h2> -->
+            <!-- <p>With 4000+ Products to choose from, forget scouring those aisles for hours.</p> -->
+        <!-- </div> -->
+    <!-- </div> -->
 
+    <div class="container">
+        <p>
+            <a class="p_com" href="#">Sodai Chai .com</a>  is an online shop 
+            available in Noakhali. We believe time is valuable to our fellow 
+            residents, and that they should not have to   waste hours in traffic, 
+            brave bad weather and wait in line just to buy basic necessities like 
+            eggs! This is why Spdai Chai delivers everything    you need right at 
+            your door-step and at no additional cost.
+        </p>
+    </div>       
 
     <!-- ............................footer section..................................... -->
-        <div class="foter-div"> 
+        <div class="foter-div container"> 
             <footer class="footer-2" ><p><i class="far fa-copyright"></i> All Right Reserved By Sodai Chai</p></footer>
         </div>
 
