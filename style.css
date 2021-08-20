@@ -22,7 +22,7 @@ body{
 .main_menu_fulldiv {
     display: inline-block;
     text-align: center;
-/*     position: fixed; */
+    position: fixed;
     background-color: #ffffff;
     width: 100%;
     height: 130px;
