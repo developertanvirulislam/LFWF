@@ -57,6 +57,24 @@ body{
     left: -3px;
     font-size: -2px;
 }
+.map{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 0%;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0);
+    transition: .5s;
+    z-index: 5;
+}
+.deliverder_to:hover .map{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    transform: scale(1);
+
+}
 .deliverder_to {
     display: inline-block;
     position: absolute;
@@ -164,7 +182,7 @@ body{
 .cart_div {
     font-size: 40px;
     position: absolute;
-    top: 23%;
+    top: 34%;
     right: 10%;
 }
 .cart_div i{
@@ -173,11 +191,11 @@ body{
 /* .cart_div b{ */
     /* font-size: 15px; */
 /* } */
-.sing_in_div{
-    font-size: 35px;
+.sing_in_div {
+    font-size: 31px;
     position: absolute;
-    top: 20%;
-    right: 4%;
+    top: 26%;
+    right: 5%;
 }
 .sing_in_div i{
     color: black;
