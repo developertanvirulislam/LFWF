@@ -16,6 +16,7 @@ body{
 .container{
     width: 1320px;
     margin: auto !important;
+    text-align: center !important;
 }
 
 /* ...........................main_menu_part............................. */
@@ -364,7 +365,7 @@ body{
 
 /* ..................banner_part.................... */
 .full_track{
-    background: url(https://i.ibb.co/tHpvG79/track-Recovered.png) no-repeat;
+    background: url(https://i.ibb.co/tHpvG79/track-Recovered.png) no-repeat ;
     width: 250px;
     position: absolute;
     top: 0px;
@@ -402,6 +403,7 @@ body{
     height:auto;
     width: 100%;
     position: relative;
+    /* display: inline-block; */
 }
 .inner_text h2{
     font-size: 40px;
